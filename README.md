@@ -6,7 +6,7 @@ This year, with the help of my trusty Pal Mr T Wat, I shall be choosing a random
 
 The languages I will be using are the following `[GO, Rust, Zig, TypeScript, PHP, Elixir, C#]`
 
-This should be fun!
+This should be fun!!
 
 
 # Advent of Code 2024 Progress
