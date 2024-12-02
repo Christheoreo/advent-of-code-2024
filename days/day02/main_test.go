@@ -11,13 +11,10 @@ var partOneExample string
 //go:embed part2example.txt
 var partTwoExample string
 
-//go:embed input.txt
-var input string
-
 // Test for SolvePartOne
 func TestSolvePartOne(t *testing.T) {
 	// Expected result
-	expected := 142
+	expected := 2
 
 	// Actual result from SolvePartOne
 	result := solvePartOne(partOneExample)
