@@ -3,8 +3,9 @@
 using day04;
 
 Console.WriteLine("Hello, World!");
-
-var input = System.IO.File.ReadAllText("input.txt");
+// var projectDirectory = AppContext.BaseDirectory;
+// var inputFilePath = Path.Combine(projectDirectory, "input.txt");
+var input = System.IO.File.ReadAllText("../../../../day04/input.txt");
 
 var partOneAnswer = Part1.Solve(input);
 
