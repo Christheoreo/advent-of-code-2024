@@ -1,0 +1,20 @@
+{
+    "name": "christheoreo/day03",
+    "description": "AOC2024",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MyApp\\Tests\\": "tests/",
+            "MyApp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Chris F",
+            "email": "89905050+17OChris@users.noreply.github.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^11.4"
+    }
+}
