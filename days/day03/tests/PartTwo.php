@@ -10,6 +10,6 @@ class PartTwo extends BaseTestCase
     {
         $input = $this->readFile("part2example.txt");
         $answer = Part02::Solve($input);
-        $this->assertEquals(4, $answer);
+        $this->assertEquals(48, $answer);
     }
 }
