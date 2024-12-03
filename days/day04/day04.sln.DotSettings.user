@@ -1,0 +1,9 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/CreateUnitTestDialog/TestProjectMapping/=8E52DFAB_002D5F50_002D4B5D_002DA9D7_002D8BBB1BEA2629/@EntryIndexedValue">AC14E3B8-35B3-43D9-8934-6C469436BC55</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/CreateUnitTestDialog/TestTemplateMapping/=MSTest/@EntryIndexedValue">d6790ab7-33c2-4425-b2c9-51480cd1a852</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=64b68614_002D936b_002D44fd_002D8ac8_002De5410db87215/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="P" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;MSTest::AC14E3B8-35B3-43D9-8934-6C469436BC55::net8.0::day04.Tests.Part1Test.P&lt;/TestId&gt;
+    &lt;TestId&gt;MSTest::AC14E3B8-35B3-43D9-8934-6C469436BC55::net8.0::day04.Tests.Part2Test.P2&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
