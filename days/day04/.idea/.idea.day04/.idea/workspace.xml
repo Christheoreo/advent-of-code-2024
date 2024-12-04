@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="396367fc-dadf-4629-a48d-d4f250807ed4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/day04.Tests/Part1Test.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04.Tests/Part2Test.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04.Tests/day04.Tests.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04.Tests/part1example.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04.Tests/part2example.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day04.sln.DotSettings.user" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.day04/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.day04/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day04.sln" beforeDir="false" afterPath="$PROJECT_DIR$/day04.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day04.Tests/Part1Test.cs" beforeDir="false" afterPath="$PROJECT_DIR$/day04.Tests/Part1Test.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day04.Tests/Part2Test.cs" beforeDir="false" afterPath="$PROJECT_DIR$/day04.Tests/Part2Test.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day04.Tests/part1example.txt" beforeDir="false" afterPath="$PROJECT_DIR$/day04.Tests/part1example.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day04.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/day04.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day04/Part1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/day04/Part1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day04/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/day04/input.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,10 +21,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2pisI4K4Y1wC5AcfmW7WBV1QmNH" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -34,9 +36,15 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     ".NET Project.day04.executor": "Run",
+    "4792cad5-74fe-44e8-a04f-40b6aa05b41a.executor": "Debug",
+    "64b68614-936b-44fd-8ac8-e5410db87215.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "day04",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -69,7 +77,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1733260148036</updated>
-      <workItem from="1733260150329" duration="310000" />
+      <workItem from="1733260150329" duration="622000" />
+      <workItem from="1733300817816" duration="1177000" />
     </task>
     <servers />
   </component>
@@ -77,4 +86,23 @@
     <option name="version" value="3" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/day04/Part1.cs</url>
+          <line>61</line>
+          <properties documentPath="$PROJECT_DIR$/day04/Part1.cs" containingFunctionPresentation="Method 'Solve'">
+            <startOffsets>
+              <option value="2394" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2423" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
 </project>

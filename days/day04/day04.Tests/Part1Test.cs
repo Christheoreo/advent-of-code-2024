@@ -14,7 +14,7 @@ public class Part1Test
     public void P()
     {
         var input = File.ReadAllText("../../../part1example.txt");
-        var expected = 100;
+        const int expected = 18;
         var answer = Part1.Solve(input);
         
         Assert.AreEqual(expected, answer);
