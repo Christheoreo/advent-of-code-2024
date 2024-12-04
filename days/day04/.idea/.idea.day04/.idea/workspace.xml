@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="396367fc-dadf-4629-a48d-d4f250807ed4" name="Changes" comment="">
+    <list default="true" id="396367fc-dadf-4629-a48d-d4f250807ed4" name="Changes" comment="day 04 Part 1 :white_check_mark:">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.day04/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.day04/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day04.Tests/Part1Test.cs" beforeDir="false" afterPath="$PROJECT_DIR$/day04.Tests/Part1Test.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day04.Tests/Part2Test.cs" beforeDir="false" afterPath="$PROJECT_DIR$/day04.Tests/Part2Test.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day04.Tests/part1example.txt" beforeDir="false" afterPath="$PROJECT_DIR$/day04.Tests/part1example.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day04.Tests/part2example.txt" beforeDir="false" afterPath="$PROJECT_DIR$/day04.Tests/part2example.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day04.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/day04.sln.DotSettings.user" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day04/Part1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/day04/Part1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day04/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/day04/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day04/Part2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/day04/Part2.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +20,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/cbd51ded3de5a42d033a566294ae8a738f26b5d64a542e44282caacad314f/Assert.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 5
@@ -37,6 +40,7 @@
   "keyToString": {
     ".NET Project.day04.executor": "Run",
     "4792cad5-74fe-44e8-a04f-40b6aa05b41a.executor": "Debug",
+    "53911f56-d911-49d2-a15e-5f60bdc22eaf.executor": "Debug",
     "64b68614-936b-44fd-8ac8-e5410db87215.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -78,31 +82,26 @@
       <option name="presentableId" value="Default" />
       <updated>1733260148036</updated>
       <workItem from="1733260150329" duration="622000" />
-      <workItem from="1733300817816" duration="1177000" />
+      <workItem from="1733300817816" duration="2885000" />
     </task>
+    <task id="LOCAL-00001" summary="day 04 Part 1 :white_check_mark:">
+      <option name="closed" value="true" />
+      <created>1733302084037</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733302084037</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/day04/Part1.cs</url>
-          <line>61</line>
-          <properties documentPath="$PROJECT_DIR$/day04/Part1.cs" containingFunctionPresentation="Method 'Solve'">
-            <startOffsets>
-              <option value="2394" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2423" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="day 04 Part 1 :white_check_mark:" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 04 Part 1 :white_check_mark:" />
   </component>
 </project>
