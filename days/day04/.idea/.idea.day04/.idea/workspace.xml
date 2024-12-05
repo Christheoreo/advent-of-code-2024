@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="396367fc-dadf-4629-a48d-d4f250807ed4" name="Changes" comment="day 04 Part 1 :white_check_mark:">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.day04/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.day04/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day04.Tests/Part2Test.cs" beforeDir="false" afterPath="$PROJECT_DIR$/day04.Tests/Part2Test.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day04.Tests/part2example.txt" beforeDir="false" afterPath="$PROJECT_DIR$/day04.Tests/part2example.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day04.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/day04.sln.DotSettings.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day04/Part1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/day04/Part1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day04/Part2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/day04/Part2.cs" afterDir="false" />
-    </list>
+    <list default="true" id="396367fc-dadf-4629-a48d-d4f250807ed4" name="Changes" comment="day 04 Part 1 :white_check_mark:" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,7 +37,7 @@
     "64b68614-936b-44fd-8ac8-e5410db87215.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "day04",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -53,7 +46,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected=".NET Project.day04">
+  <component name="RunManager">
     <configuration name="day04" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -82,7 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1733260148036</updated>
       <workItem from="1733260150329" duration="622000" />
-      <workItem from="1733300817816" duration="2885000" />
+      <workItem from="1733300817816" duration="3211000" />
     </task>
     <task id="LOCAL-00001" summary="day 04 Part 1 :white_check_mark:">
       <option name="closed" value="true" />
