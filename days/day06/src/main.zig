@@ -121,6 +121,9 @@ pub fn solvePartOne(data: []const u8) !u32 {
 }
 
 pub fn solvePartTwo(data: []const u8) !u32 {
+    // My theory
+    // run through everyone once, and capture and direction your going with the x, y Points
+    // then go around and start adding an obstacle, and work out if it intercepts a point going in the same direction, if SO then that casues an infinite lock!
     var lines = std.mem.split(u8, data, "\n");
     const allocator = std.heap.page_allocator;
 
