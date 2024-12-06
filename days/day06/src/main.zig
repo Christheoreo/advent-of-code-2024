@@ -4,6 +4,8 @@ const ArrayList = std.ArrayList;
 const input = @embedFile("./input.txt");
 const part1example = @embedFile("./part1example.txt");
 const part2example = @embedFile("./part2example.txt");
+const allocator = std.heap.page_allocator;
+const Direction = enum { north, south, east, west };
 
 const Point = struct {
     const Self = @This();
@@ -21,9 +23,7 @@ const Point = struct {
         return self.x == other.x and self.y == other.y;
     }
 };
-const allocator = std.heap.page_allocator;
-const allocatorGeneral = std.heap.GeneralPurposeAllocator(.{}).allocator();
-const Direction = enum { north, south, east, west };
+
 const PointD = struct {
     const Self = @This();
     x: i32,
@@ -139,9 +139,6 @@ pub fn solvePartOne(data: []const u8) !u32 {
 }
 
 pub fn solvePartTwo(data: []const u8) !u32 {
-    // My theory
-    // run through everyone once, and capture and direction your going with the x, y Points
-    // then go around and start adding an obstacle, and work out if it intercepts a point going in the same direction, if SO then that casues an infinite lock!
     var lines = std.mem.split(u8, data, "\n");
 
     var currentPos = PointD{ .x = 0, .y = 0, .direction = Direction.north };
@@ -169,8 +166,6 @@ pub fn solvePartTwo(data: []const u8) !u32 {
 
     var inGrid: bool = true;
 
-    // find the startingPos
-
     const totalRows: usize = grid.items.len;
     const totalCols: usize = grid.items[0].len;
     try unique_points.put(Point{ .x = currentPos.x, .y = currentPos.y }, 0);
@@ -179,19 +174,15 @@ pub fn solvePartTwo(data: []const u8) !u32 {
         var nextPos = PointD{ .x = 0, .y = 0, .direction = Direction.north };
         switch (currentPos.direction) {
             Direction.north => {
-                //
                 nextPos = PointD{ .x = currentPos.x, .y = currentPos.y - 1, .direction = Direction.north };
             },
             Direction.east => {
-                //
                 nextPos = PointD{ .x = currentPos.x + 1, .y = currentPos.y, .direction = Direction.east };
             },
             Direction.south => {
-                //
                 nextPos = PointD{ .x = currentPos.x, .y = currentPos.y + 1, .direction = Direction.south };
             },
             else => {
-                //
                 nextPos = PointD{ .x = currentPos.x - 1, .y = currentPos.y, .direction = Direction.west };
             },
         }
@@ -208,7 +199,6 @@ pub fn solvePartTwo(data: []const u8) !u32 {
 
         if (b != '#') {
             currentPos = nextPos;
-            std.debug.print("x = {}, y = {}\n", .{ currentPos.x, currentPos.y });
             try unique_points.put(Point{ .x = currentPos.x, .y = currentPos.y }, unique_points.count() + 1);
             continue;
         }
@@ -243,11 +233,8 @@ pub fn solvePartTwo(data: []const u8) !u32 {
             continue;
         }
         if (leavesGrid(grid, point, startPos, totalRows, totalCols)) {
-            std.debug.print("Placing object at {} {} LEAVES the grid\n", .{ point.x, point.y });
             continue;
         }
-        std.debug.print("Placing object at {} {} Does not leave the grid\n", .{ point.x, point.y });
-
         count += 1;
     }
 
@@ -321,20 +308,6 @@ fn leavesGrid(grid: ArrayList([]const u8), pointToPutObstacle: Point, startPos: 
             std.debug.print("Failed to put into the map: {}\n", .{err});
             return true;
         };
-
-        // if (loops > 100000) {
-        //     return false;
-        // }
-
-        // currentPos = nextPos;
-        // const currentPosValue = pathToFollow.get(currentPos) orelse 0;
-        // const obstacleValue = pathToFollow.get(pointToPutObstacle) orelse 0;
-        // if (hitObstacle and pathToFollow.contains(currentPos)) {
-        //     if (currentPosValue < obstacleValue) {
-        //         std.debug.print("CurrentPos was found at index {} and obstacle was found at {any} \n", .{ currentPosValue, obstacleValue });
-        //         return false;
-        //     }
-        // }
     }
     return true;
 }
