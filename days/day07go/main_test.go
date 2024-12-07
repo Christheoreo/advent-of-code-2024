@@ -27,7 +27,7 @@ func TestSolvePartOne(t *testing.T) {
 // Test for SolvePartTwo
 func TestSolvePartTwo(t *testing.T) {
 	// Expected result
-	expected := 4
+	expected := 11387
 
 	// Actual result from SolvePartTwo
 	result := solvePartTwo(partTwoExample)
