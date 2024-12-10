@@ -18,9 +18,16 @@ test("solve part one", () => {
   expect(actual).toEqual(expected); 
 });
 
-test("solve part two", () => {
-  const expected = 34;
+test("solve part two A", () => {
+  const expected = 9;
   const actual = solvePartTwo(part2example);
+
+  expect(actual).toEqual(expected);
+});
+
+test("solve part two B", () => {
+  const expected = 34;
+  const actual = solvePartTwo(part1example);
 
   expect(actual).toEqual(expected);
 });
