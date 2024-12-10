@@ -21,7 +21,7 @@ This should be fun!!
 | 6   |    ZIG   |   ✅   |   ✅   |
 | 7   |  Elixir  |   ❌   |   ❌   |
 | 7   |    GO    |   ✅   |   ✅   |
-| 8   |TypeScript|   ❓   |   ❓   |
+| 8   |TypeScript|   ✅   |   ✅   |
 | 9   |          |   ❓   |   ❓   |
 | 10  |          |   ❓   |   ❓   |
 | 11  |          |   ❓   |   ❓   |
