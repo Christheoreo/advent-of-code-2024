@@ -12,14 +12,14 @@ const part2example: string = readFileSync("./part2example.txt", {
 });
 
 test("solve part one", () => {
-  const expected = 143;
+  const expected = 14;
   const actual = solvePartOne(part1example);
 
   expect(actual).toEqual(expected); 
 });
 
 test("solve part two", () => {
-  const expected = 123;
+  const expected = 34;
   const actual = solvePartTwo(part2example);
 
   expect(actual).toEqual(expected);

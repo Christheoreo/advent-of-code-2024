@@ -1,10 +1,6 @@
 type M = Record<string, { x: number; y: number }[]>;
 
 export const solvePartOne = (input: string): number => {
-  let answer: number = 1;
-  // const uniuqeSignals = new Set(
-  //   ...input.split("").filter((v) => v !== "." && v != "")
-  // );
   const uniuqeSignals = new Set(
     input.split("").filter((v) => v !== "." && v !== "\n")
   );
@@ -37,13 +33,8 @@ export const solvePartOne = (input: string): number => {
         if (i === index) continue;
         // work out the distance
         const nextVal = values[i];
-        // console.log("val", val, "nextVal", nextVal);
-        // const xDiff = val.x < nextVal.x ? nextVal.x - val.x  : val.x - nextVal.x;
-        // const yDiff = val.y < nextVal.y ? nextVal.y - val.y : val.y - nextVal.y;
-        const xDiff =  val.x - nextVal.x;
+        const xDiff = val.x - nextVal.x;
         const yDiff = val.y - nextVal.y;
-
-
 
         // can it fit before and after?
         let xPos = val.x + xDiff;
@@ -52,11 +43,6 @@ export const solvePartOne = (input: string): number => {
         let canFitY = yPos >= 0 && yPos < lines.length;
         if (canFitX && canFitY) {
           xx.set(`${xPos},${yPos}`, 1);
-          console.log(
-            `AA Key '${key}' has a point of x = ${xPos} and y = ${yPos}`,
-            val,
-            nextVal
-          );
         }
 
         // now try and do the other side?
@@ -68,19 +54,10 @@ export const solvePartOne = (input: string): number => {
         canFitY = yPos >= 0 && yPos < lines.length;
         if (canFitX && canFitY) {
           xx.set(`${xPos},${yPos}`, 1);
-          console.log(
-            `BB Key '${key}' has a point of x = ${xPos} and y = ${yPos}`,
-            val,
-            nextVal
-          );
         }
       }
     });
   });
-
-  // console.log("mapper", mapper);
-
-  // let lines = input.split("\n");
 
   return xx.size;
 };
